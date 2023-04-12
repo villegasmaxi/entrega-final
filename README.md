@@ -1,4 +1,4 @@
-# curso de desarrollo web, tercera pre-entrega.
+# curso de desarrollo web, entrega-final.
 ### Biscotto Cakes ###
 # pasteleria artesanal
 # Maximiliano Villegas
