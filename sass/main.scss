@@ -23,13 +23,13 @@
     
 }
 
-.byn {
-    // background-image: url(../imagenes/home-byn.png);
-    // background-position: center;
-    // background-size: contain;
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-}
+// .byn {
+//      background-image: url(../imagenes/home-byn.png);
+//      background-position: center;
+//      background-size: contain;
+//      background-repeat: no-repeat;
+//      background-attachment: fixed;
+// }
 
 /*generales*/
 
@@ -37,16 +37,16 @@ h1 {
     color: rgb(26, 23, 22);
     font-family: $fontTitle;
     font-size: clamp(2em, 3vw, 5em);
-    font-weight: 400;
-    text-shadow: 3px 3px 5px rgb(83, 57, 17);
+    font-weight: 800;
+    text-shadow: 3px 3px 5px rgb(180, 114, 14);
 }
 
 h2 {
     color: rgb(58, 57, 57);
-    font-size: clamp(1.5em, 3vw, 2em);
+    font-size: clamp(1.5em, 3vw, 2.5em);
     font-family: $fontTitle;
     font-weight: 500;
-    margin-left: 5%;
+    padding: 2%;
     text-shadow: 3px 3px 5px rgb(180, 114, 14);
 }
 
@@ -92,7 +92,7 @@ header {
             border-radius: 10px;
             display: flex;
             flex-direction: column;
-            width: 40%;
+            width: 90%;
             margin: 0 auto;
             gap: 15px;
             color: black;
