@@ -1,0 +1,116 @@
+* {
+    font-family: sans-serif;
+    font-weight: 400;
+}
+
+#body {
+    background-image: url(../imagenes/home.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.byn {
+    background-image: url(../imagenes/home-byn.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*generales*/
+
+h1 {
+    color: orangered;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: clamp(2em, 6vw, 15em);
+
+    font-weight: 600;
+    text-shadow: 3px 3px 5px rgb(83, 57, 17);
+}
+
+h2 {
+    color: black;
+    font-size: clamp(1.5em, 4vw, 3em);
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 500;
+    margin-left: 5%;
+}
+
+h4 {
+    text-align: center;
+}
+
+li a {
+    color: orangered
+}
+
+
+/*header*/
+header {
+    margin-top: 1em;
+}
+
+
+/*main*/
+#main {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+#main .main-title {
+    margin-top: 5%;
+}
+
+#main .container p {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5%;
+    font-size: clamp(1.1em, 1.5vw, 1.5em);
+    color: black;
+    margin: auto;
+}
+
+
+#main .form {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#main .form .vertical {
+    background-color: rgb(197, 193, 193);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 0 auto;
+    gap: 15px;
+    color: black;
+    border: 1px solid orangered;
+}
+
+
+footer {
+    background-color: rgba(255, 69, 0, 0.2);
+    padding-top: 1em;
+    max-width: 90%;
+margin: 5% auto;
+border-top-left-radius: 5em;
+border-bottom-right-radius: 5em;
+}
+
+
+@media(max-width:767px) {
+    #main .form .vertical {
+        min-width: 75%;
+    }
+}
+
+@media(max-width:767px) {
+    #main .main-title {
+        text-align: center;
+    }
+}
+

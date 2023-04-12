@@ -1,0 +1,110 @@
+/*vars*/
+* {
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+/*body*/
+#body nav {
+  background: linear-gradient(45deg, rgb(245, 169, 141), rgb(201, 199, 199));
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 10s ease-in-out infinite;
+}
+
+/*generales*/
+h1 {
+  color: rgb(26, 23, 22);
+  font-family: "Questrial", sans-serif;
+  font-size: clamp(2em, 3vw, 5em);
+  font-weight: 400;
+  text-shadow: 3px 3px 5px rgb(83, 57, 17);
+}
+
+h2 {
+  color: rgb(58, 57, 57);
+  font-size: clamp(1.5em, 3vw, 2em);
+  font-family: "Questrial", sans-serif;
+  font-weight: 500;
+  margin-left: 5%;
+  text-shadow: 3px 3px 5px rgb(180, 114, 14);
+}
+
+h4 {
+  text-align: center;
+}
+
+/*header*/
+header {
+  margin-top: 1em;
+}
+header nav .container .navbar-brand {
+  color: orangered;
+  font-weight: 500;
+  font-family: "Questrial", sans-serif;
+}
+
+/*main*/
+#main .main-title {
+  margin-top: 5%;
+}
+#main .main-tortas-modal img:hover {
+  transform: scale(1.08);
+}
+#main .container p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10%;
+  font-size: clamp(1.1em, 1.5vw, 1.5em);
+  color: black;
+  margin: auto;
+}
+#main .form {
+  text-align: center;
+  padding-bottom: 20px;
+}
+#main .form .vertical {
+  background-color: rgb(197, 193, 193);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+  gap: 15px;
+  color: black;
+  border: 1px solid orangered;
+}
+
+footer {
+  background-color: rgba(228, 226, 224, 0.5);
+  padding-top: 1em;
+  max-width: 95%;
+  margin: 5% auto;
+  border-top-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+footer li a {
+  color: orangered;
+}
+
+@keyframes cambiar {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+@media (max-width: 767px) {
+  #main .form .vertical {
+    min-width: 75%;
+  }
+}
+@media (max-width: 767px) {
+  #main .main-title {
+    text-align: center;
+  }
+}/*# sourceMappingURL=main.css.map */
