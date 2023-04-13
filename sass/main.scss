@@ -5,23 +5,27 @@
     font-family: $fontGeneral;
     font-weight: 400;
 }
+
 /*body*/
 
 
 #body {
+   
+
+
     // background-image: url(../imagenes/home.png);
     // background-position: center;
     // background-size: contain;
     // background-repeat: no-repeat;
     // background-attachment: fixed;
-    nav{
-        background:linear-gradient(45deg,rgb(245, 169, 141),  rgb(201, 199, 199));
-    background-size: 400% 400%;
-    position: relative;
-    animation: cambiar 10s ease-in-out infinite;
+    nav {
+        background: linear-gradient(45deg, rgb(245, 169, 141), rgb(201, 199, 199));
+        background-size: 400% 400%;
+        position: relative;
+        animation: cambiar 10s ease-in-out infinite;
     }
-    
-}
+
+
 
 // .byn {
 //      background-image: url(../imagenes/home-byn.png);
@@ -30,6 +34,7 @@
 //      background-repeat: no-repeat;
 //      background-attachment: fixed;
 // }
+}
 
 /*generales*/
 
@@ -55,20 +60,23 @@ h4 {
 }
 
 
+
 /*header*/
 header {
     margin-top: 1em;
-    nav .container .navbar-brand{ color: orangered;
-        font-weight: 500;
-        font-family: $fontTitle;}
-    }
+   
+
+}
 
 /*main*/
 #main {
     .main-title {
         margin-top: 5%;
     }
-    .main-tortas-modal img:hover{transform: scale(1.08);}
+
+    .main-tortas-modal img:hover {
+        transform: scale(1.08);
+    }
 
     .container {
         p {
@@ -79,6 +87,7 @@ header {
             margin: auto;
         }
     }
+
 
     .form {
         text-align: center;
@@ -101,22 +110,32 @@ header {
     }
 }
 
-footer { 
-    background-color:rgba(228, 226, 224, 0.5);
+
+footer {
+    background-color: rgba(228, 226, 224, 0.5);
     padding-top: 1em;
     max-width: 95%;
     margin: 5% auto;
     border-top-left-radius: 5em;
     border-bottom-right-radius: 5em;
+
     li a {
         color: orangered
     }
 }
 
-@keyframes cambiar{
-    0%{background-position: 0 50%;}
-    50%{background-position: 100% 50%;}
-    100%{background-position: 0 50%;}
+@keyframes cambiar {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
 }
 
 @media(max-width:$mobile) {
@@ -130,4 +149,3 @@ footer {
         text-align: center;
     }
 }
-

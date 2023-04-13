@@ -38,11 +38,6 @@ h4 {
 header {
   margin-top: 1em;
 }
-header nav .container .navbar-brand {
-  color: orangered;
-  font-weight: 500;
-  font-family: "Questrial", sans-serif;
-}
 
 /*main*/
 #main .main-title {
