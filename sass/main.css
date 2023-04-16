@@ -5,6 +5,11 @@
 }
 
 /*body*/
+#body {
+  background-color: #faf4f4;
+  background-image: linear-gradient(to right, transparent 50%, rgba(255, 255, 255, 0.3) 50%), linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.4) 50%);
+  background-size: 20px 20px;
+}
 #body nav {
   background: linear-gradient(45deg, rgb(245, 169, 141), rgb(201, 199, 199));
   background-size: 400% 400%;
