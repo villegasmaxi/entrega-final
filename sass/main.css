@@ -6,7 +6,7 @@
 
 /*body*/
 #body {
-  background-color: #faf4f4;
+  background-color: whitesmoke;
   background-image: linear-gradient(to right, transparent 50%, rgba(255, 255, 255, 0.3) 50%), linear-gradient(to bottom, transparent 50%, rgba(255, 255, 255, 0.4) 50%);
   background-size: 20px 20px;
 }
@@ -31,7 +31,7 @@ h2 {
   font-size: clamp(1.5em, 3vw, 2.5em);
   font-family: "Questrial", sans-serif;
   font-weight: 500;
-  padding: 2%;
+  padding: 0%;
   text-shadow: 3px 3px 5px rgb(180, 114, 14);
 }
 
@@ -41,12 +41,12 @@ h4 {
 
 /*header*/
 header {
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 
 /*main*/
 #main .main-title {
-  margin-top: 5%;
+  margin-top: 0.5%;
 }
 #main .main-tortas-modal img:hover {
   transform: scale(1.08);
